@@ -1,10 +1,10 @@
-# FlowForge
+# StageForge
 
-**FlowForge** is a blazing-fast, asynchronous, stage-based pipeline framework crafted in Rust, designed to orchestrate complex task workflows with unparalleled efficiency. Built for scalability and resilience, it empowers developers to process tasks through modular stages, seamlessly integrating concurrency control, robust error handling, retries, and persistent database storage. FlowForge is the backbone for high-throughput, mission-critical applications, from data pipelines to task orchestration.
+**StageForge** is a blazing-fast, asynchronous, stage-based pipeline framework crafted in Rust, designed to orchestrate complex task workflows with unparalleled efficiency. Built for scalability and resilience, it empowers developers to process tasks through modular stages, seamlessly integrating concurrency control, robust error handling, retries, and persistent database storage. StageForge is the backbone for high-throughput, mission-critical applications, from data pipelines to task orchestration.
 
 ## Proven in Production
 
-A forked version of FlowForge has been successfully deployed in a leading technology company, integrated with the Actix framework. In a high-demand business scenario, it reliably processes **hundreds of gigabytes of files daily**, demonstrating its stability and performance. This deployment, while based on FlowForge's prototype, showcases its potential as a foundation for production-grade systems. The fully engineered version, evolved from this prototype, boasts **exceptional extensibility**, making it a battle-tested framework capable of meeting diverse and evolving requirements.
+A forked version of StageForge has been successfully deployed in a leading technology company, integrated with the Actix framework. In a high-demand business scenario, it reliably processes **hundreds of gigabytes of files daily**, demonstrating its stability and performance. This deployment, while based on StageForge's prototype, showcases its potential as a foundation for production-grade systems. The fully engineered version, evolved from this prototype, boasts **exceptional extensibility**, making it a battle-tested framework capable of meeting diverse and evolving requirements.
 
 ## Features
 
@@ -32,7 +32,7 @@ A forked version of FlowForge has been successfully deployed in a leading techno
 
 ## Future Vision
 
-FlowForge is poised to redefine task orchestration in modern systems. Its extensible architecture paves the way for integrations with distributed systems like Kubernetes, advanced monitoring tools, and AI-driven workflow optimization. As it evolves, FlowForge aims to become the go-to framework for building resilient, high-performance pipelines in industries ranging from fintech to big data analytics. With a vibrant community and ongoing enhancements, FlowForge is set to power the next generation of scalable, fault-tolerant applications.
+StageForge is poised to redefine task orchestration in modern systems. Its extensible architecture paves the way for integrations with distributed systems like Kubernetes, advanced monitoring tools, and AI-driven workflow optimization. As it evolves, StageForge aims to become the go-to framework for building resilient, high-performance pipelines in industries ranging from fintech to big data analytics. With a vibrant community and ongoing enhancements, StageForge is set to power the next generation of scalable, fault-tolerant applications.
 
 ## Quick Start
 
@@ -41,7 +41,7 @@ FlowForge is poised to redefine task orchestration in modern systems. Its extens
 This example demonstrates a pipeline with a single stage for task processing.
 
 ```rust
-use flowforge::{agent::{Agent, AgentStage, StageStatus}, pipeline::Pipeline, stage::Stage};
+use StageForge::{agent::{Agent, AgentStage, StageStatus}, pipeline::Pipeline, stage::Stage};
 use async_trait::async_trait;
 use std::sync::Arc;
 use std::time::Duration;
@@ -109,8 +109,8 @@ Implement the **DatabaseManager** and **DbStore** traits to enable persistent st
 
 ## Contributing
 
-Join us in shaping the future of FlowForge! Submit pull requests or open issues on the GitHub repository.
+Join us in shaping the future of StageForge! Submit pull requests or open issues on the GitHub repository.
 
 ## License
 
-FlowForge is licensed under the MIT License. See the LICENSE file for details.
+StageForge is licensed under the MIT License. See the LICENSE file for details.
